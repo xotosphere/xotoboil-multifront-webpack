@@ -1,5 +1,5 @@
 {
-  "name": "xotoboil-simple-multifront",
+  "name": "xotoboil-multifront-webpack",
   "version": "1.0.0",
   "private": true,
   "workspaces": [

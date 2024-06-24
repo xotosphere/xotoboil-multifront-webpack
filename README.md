@@ -2,16 +2,16 @@
   <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
 </p>
 <p align="center">
-    <h1 align="center">XOTOBOIL-SIMPLE-MULTIFRONT</h1>
+    <h1 align="center">xotoboil-multifront-webpack</h1>
 </p>
 <p align="center">
     <em>Empower Frontend Devs with Simplicity Across Multifront 🚀</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/xotosphere/xotoboil-simple-multifront?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/xotosphere/xotoboil-simple-multifront?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/xotosphere/xotoboil-simple-multifront?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/xotosphere/xotoboil-simple-multifront?style=flat&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/xotosphere/xotoboil-multifront-webpack?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/xotosphere/xotoboil-multifront-webpack?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/xotosphere/xotoboil-multifront-webpack?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/xotosphere/xotoboil-multifront-webpack?style=flat&color=0080ff" alt="repo-language-count">
 <p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
@@ -44,7 +44,7 @@
 > - [ Modules](#-modules)
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
->   - [ Running xotoboil-simple-multifront](#-running-xotoboil-simple-multifront)
+>   - [ Running xotoboil-multifront-webpack](#-running-xotoboil-multifront-webpack)
 >   - [ Tests](#-tests)
 > - [ Project Roadmap](#-project-roadmap)
 > - [ Contributing](#-contributing)
@@ -55,7 +55,7 @@
 
 ##  Overview
 
-The xotoboil-simple-multifront project provides a scalable solution for managing multiple frontend modules within a single repository. Leveraging tools like webpack and module federation, the project enables seamless development and deployment workflows. With specialized configurations for each package, such as the home section, developers can efficiently build, serve, and bundle frontend components. By orchestrating parallel executions and maintaining dependencies, the project simplifies the creation of complex and dynamic user interfaces across various views, enhancing overall user experience and productivity.
+The xotoboil-multifront-webpack project provides a scalable solution for managing multiple frontend modules within a single repository. Leveraging tools like webpack and module federation, the project enables seamless development and deployment workflows. With specialized configurations for each package, such as the home section, developers can efficiently build, serve, and bundle frontend components. By orchestrating parallel executions and maintaining dependencies, the project simplifies the creation of complex and dynamic user interfaces across various views, enhancing overall user experience and productivity.
 
 
 ---
@@ -63,7 +63,7 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 ##  Repository Structure
 
 ```sh
-└── xotoboil-simple-multifront/
+└── xotoboil-multifront-webpack/
     ├── README.md
     ├── package.json
     ├── packages
@@ -105,8 +105,8 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                              | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---                                                                                               | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [package.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/package.json) | Code Summary:**The code snippet orchestrates parallel execution of start commands across multiple packages in the repository, enabling seamless development workflow using `concurrently` and `wsrun`.                                                                                                                                                                                                                                                                       |
-| [yarn.lock](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/yarn.lock)       | Summary: This code snippet in the body package of xotoboil-simple-multifront repo manages the main application component, facilitating frontend display and functionality across multiple views.By defining and controlling the behavior of the App.vue file, the code influences the overall user experience and interface within the repository's frontend structure.For further insights, explore the package's intricate features within the project's extensive README. |
+| [package.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/package.json) | Code Summary:**The code snippet orchestrates parallel execution of start commands across multiple packages in the repository, enabling seamless development workflow using `concurrently` and `wsrun`.                                                                                                                                                                                                                                                                       |
+| [yarn.lock](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/yarn.lock)       | Summary: This code snippet in the body package of xotoboil-multifront-webpack repo manages the main application component, facilitating frontend display and functionality across multiple views.By defining and controlling the behavior of the App.vue file, the code influences the overall user experience and interface within the repository's frontend structure.For further insights, explore the package's intricate features within the project's extensive README. |
 
 </details>
 
@@ -114,9 +114,9 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                                      | Summary                                                                                                                                                                                                         |
 | ---                                                                                                                       | ---                                                                                                                                                                                                             |
-| [tsconfig.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/home/tsconfig.json)         | Code in `packages/home/src/index.ts` manages front-end setup for home section. Supports module bundling via webpack. Configured for ES5 target with strict type checking.                                       |
-| [package.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/home/package.json)           | Code Summary:** `home` package configures scripts for serving and building the frontend. Manages dependencies using Babel and Webpack, maintaining project compilation and execution.                           |
-| [webpack.config.js](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/home/webpack.config.js) | Code Summary-packages/home/webpack.config.js:**Configures webpack to build and serve a home module. Sets up module federation for sharing home with navigation and body. HtmlWebpackPlugin for HTML templating. |
+| [tsconfig.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/home/tsconfig.json)         | Code in `packages/home/src/index.ts` manages front-end setup for home section. Supports module bundling via webpack. Configured for ES5 target with strict type checking.                                       |
+| [package.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/home/package.json)           | Code Summary:** `home` package configures scripts for serving and building the frontend. Manages dependencies using Babel and Webpack, maintaining project compilation and execution.                           |
+| [webpack.config.js](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/home/webpack.config.js) | Code Summary-packages/home/webpack.config.js:**Configures webpack to build and serve a home module. Sets up module federation for sharing home with navigation and body. HtmlWebpackPlugin for HTML templating. |
 
 </details>
 
@@ -124,7 +124,7 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                               | Summary                                                                                                                                                                               |
 | ---                                                                                                                | ---                                                                                                                                                                                   |
-| [index.html](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/home/public/index.html) | Code snippet in `packages/navigation/Header.tsx` integrates header component into parent repository's front end, enhancing user experience with consistent branding across all pages. |
+| [index.html](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/home/public/index.html) | Code snippet in `packages/navigation/Header.tsx` integrates header component into parent repository's front end, enhancing user experience with consistent branding across all pages. |
 
 </details>
 
@@ -132,7 +132,7 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                        | Summary                                                                                                                                                           |
 | ---                                                                                                         | ---                                                                                                                                                               |
-| [index.ts](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/home/src/index.ts) | Code snippet registers and initializes micro-frontends header, footer, and body in a Single-SPA application, based on the main repository's modular architecture. |
+| [index.ts](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/home/src/index.ts) | Code snippet registers and initializes micro-frontends header, footer, and body in a Single-SPA application, based on the main repository's modular architecture. |
 
 </details>
 
@@ -140,9 +140,9 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                                            | Summary                                                                                                                                                                                                                                                    |
 | ---                                                                                                                             | ---                                                                                                                                                                                                                                                        |
-| [tsconfig.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/navigation/tsconfig.json)         | Code snippet in `navigation` package handles rendering site header and footer components in the front-end, conforming to React standards in the parent repository's architecture.                                                                          |
-| [package.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/navigation/package.json)           | Code Summary:** The `navigation` package orchestrates frontend components for the app's header and footer, facilitating seamless navigation. It supports React and TypeScript with necessary build configurations in the parent repository's architecture. |
-| [webpack.config.js](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/navigation/webpack.config.js) | Code in `packages/navigation/webpack.config.js` exposes Header and Footer components via Module Federation, enabling remote use within the parent repository's architecture.                                                                               |
+| [tsconfig.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/navigation/tsconfig.json)         | Code snippet in `navigation` package handles rendering site header and footer components in the front-end, conforming to React standards in the parent repository's architecture.                                                                          |
+| [package.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/navigation/package.json)           | Code Summary:** The `navigation` package orchestrates frontend components for the app's header and footer, facilitating seamless navigation. It supports React and TypeScript with necessary build configurations in the parent repository's architecture. |
+| [webpack.config.js](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/navigation/webpack.config.js) | Code in `packages/navigation/webpack.config.js` exposes Header and Footer components via Module Federation, enabling remote use within the parent repository's architecture.                                                                               |
 
 </details>
 
@@ -150,9 +150,9 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                                  | Summary                                                                                                                                                                                                                |
 | ---                                                                                                                   | ---                                                                                                                                                                                                                    |
-| [Header.tsx](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/navigation/src/Header.tsx) | Header Component for Plugin Integration:** 💻Code in `Header.tsx` serves as integration point for React header plugin in a micro frontends architecture, utilizing `single-spa-react`.                                  |
-| [Footer.tsx](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/navigation/src/Footer.tsx) | Code Summary:** The code snippet in `packages/navigation/src/Footer.tsx` defines a React footer component integrated for mounting, bootstrapping, and unmounting within a single-spa architecture.                     |
-| [index.ts](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/navigation/src/index.ts)     | Role:** Integrates **Footer** and **Header** components in navigation package for consistent UI across the application. Maintains seamless user experience and enhances navigation structure in the parent repository. |
+| [Header.tsx](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/navigation/src/Header.tsx) | Header Component for Plugin Integration:** 💻Code in `Header.tsx` serves as integration point for React header plugin in a micro frontends architecture, utilizing `single-spa-react`.                                  |
+| [Footer.tsx](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/navigation/src/Footer.tsx) | Code Summary:** The code snippet in `packages/navigation/src/Footer.tsx` defines a React footer component integrated for mounting, bootstrapping, and unmounting within a single-spa architecture.                     |
+| [index.ts](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/navigation/src/index.ts)     | Role:** Integrates **Footer** and **Header** components in navigation package for consistent UI across the application. Maintains seamless user experience and enhances navigation structure in the parent repository. |
 
 </details>
 
@@ -160,9 +160,9 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                                      | Summary                                                                                                                                                                                                                  |
 | ---                                                                                                                       | ---                                                                                                                                                                                                                      |
-| [tsconfig.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/tsconfig.json)         | Code in packages/body enforces strict typing and ES features. It ensures consistent file naming and improves module resolution in the multi-front architecture.                                                          |
-| [package.json](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/package.json)           | Code snippet in `packages/body/package.json` configures build and start scripts for the Body package, serving and building web content on port 3002 using Vue and related dependencies in the multi-frontend repository. |
-| [webpack.config.js](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/webpack.config.js) | Code in packages/body/webpack.config.js sets up module federation for body package. It exposes Body component & configures shared modules for seamless composition in the repository's architecture.                     |
+| [tsconfig.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/tsconfig.json)         | Code in packages/body enforces strict typing and ES features. It ensures consistent file naming and improves module resolution in the multi-front architecture.                                                          |
+| [package.json](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/package.json)           | Code snippet in `packages/body/package.json` configures build and start scripts for the Body package, serving and building web content on port 3002 using Vue and related dependencies in the multi-frontend repository. |
+| [webpack.config.js](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/webpack.config.js) | Code in packages/body/webpack.config.js sets up module federation for body package. It exposes Body component & configures shared modules for seamless composition in the repository's architecture.                     |
 
 </details>
 
@@ -170,9 +170,9 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                        | Summary                                                                                                                                                                                                                                                                                                  |
 | ---                                                                                                         | ---                                                                                                                                                                                                                                                                                                      |
-| [app.ts](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/src/app.ts)     | Summary: The code snippet in `packages/body/src/app.ts` utilizes `single-spa-vue` to create a Vue.js app for integrating front-end modules within the parent repository's architecture. Key features include lifecycle management functions for bootstrapping, mounting, and unmounting the application. |
-| [App.vue](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/src/App.vue)   | Code snippet in `packages/body/src/App.vue` defines the body component in Vue.js. It displays a styled container with content, crucial for the frontend architecture of the repository.                                                                                                                  |
-| [index.ts](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/src/index.ts) | Code snippet in `packages/body/src/index.ts` imports and initializes the main application logic from `app.ts`. This module acts as the entry point for the body component in the xotoboil-simple-multifront repository's architecture.                                                                   |
+| [app.ts](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/src/app.ts)     | Summary: The code snippet in `packages/body/src/app.ts` utilizes `single-spa-vue` to create a Vue.js app for integrating front-end modules within the parent repository's architecture. Key features include lifecycle management functions for bootstrapping, mounting, and unmounting the application. |
+| [App.vue](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/src/App.vue)   | Code snippet in `packages/body/src/App.vue` defines the body component in Vue.js. It displays a styled container with content, crucial for the frontend architecture of the repository.                                                                                                                  |
+| [index.ts](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/src/index.ts) | Code snippet in `packages/body/src/index.ts` imports and initializes the main application logic from `app.ts`. This module acts as the entry point for the body component in the xotoboil-multifront-webpack repository's architecture.                                                                   |
 
 </details>
 
@@ -180,6 +180,6 @@ The xotoboil-simple-multifront project provides a scalable solution for managing
 
 | File                                                                                                                                 | Summary                                                                                                                                                |
 | ---                                                                                                                                  | ---                                                                                                                                                    |
-| [shims-vue.d.ts](https://github.com/xotosphere/xotoboil-simple-multifront/blob/master/packages/body/src/declarations/shims-vue.d.ts) | Code snippet in shims-vue.d.ts declares Vue component type for TypeScript, crucial for type safety in Vue components across the repository's packages. |
+| [shims-vue.d.ts](https://github.com/xotosphere/xotoboil-multifront-webpack/blob/master/packages/body/src/declarations/shims-vue.d.ts) | Code snippet in shims-vue.d.ts declares Vue component type for TypeScript, crucial for type safety in Vue components across the repository's packages. |
 
 </details>
